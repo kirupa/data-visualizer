@@ -1,0 +1,4 @@
+month,category,revenue_usd,is_synthetic
+2026-06,Platform,80000,true
+2026-06,Analytics,60000,true
+2026-06,Support,40000,true

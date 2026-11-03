@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="category-title category-description">
+  <title id="category-title">Revenue by category: static synthetic illustration</title>
+  <desc id="category-description">Synthetic June 2026 revenue in USD: Platform 80000, Analytics 60000, Support 40000. Horizontal bars are ordered largest first and share a zero baseline on a zero-to-200000 USD scale. Total revenue is 180000 USD, matching June in the monthly example. This is a static illustration; a data table is available in assets/data/README.md.</desc>
+  <rect width="960" height="540" fill="#FFFFFF"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="#172B4D">
+    <text x="40" y="42" font-size="32" font-weight="700">Revenue by category</text>
+    <text x="40" y="72" font-size="20" fill="#42526E">Synthetic data | June 2026</text>
+    <g stroke="#DCE3EB" stroke-width="1">
+      <path d="M380 150V390 M530 150V390 M680 150V390 M830 150V390"/>
+    </g>
+    <path d="M230 150V390H830" fill="none" stroke="#42526E" stroke-width="2"/>
+    <g fill="#005FCC">
+      <rect id="bar-platform" x="230" y="178" width="240" height="44"/>
+      <rect id="bar-analytics" x="230" y="258" width="180" height="44"/>
+      <rect id="bar-support" x="230" y="338" width="120" height="44"/>
+    </g>
+    <g font-size="20" text-anchor="end">
+      <text x="212" y="207">Platform</text>
+      <text x="212" y="287">Analytics</text>
+      <text x="212" y="367">Support</text>
+    </g>
+    <g font-size="20">
+      <text x="486" y="207">$80k</text>
+      <text x="426" y="287">$60k</text>
+      <text x="366" y="367">$40k</text>
+    </g>
+    <g font-size="20" text-anchor="middle" fill="#42526E">
+      <text x="230" y="425">0</text>
+      <text x="380" y="425">50</text>
+      <text x="530" y="425">100</text>
+      <text x="680" y="425">150</text>
+      <text x="830" y="425">200</text>
+    </g>
+    <text x="530" y="462" font-size="20" text-anchor="middle">Revenue (USD thousands)</text>
+    <text x="40" y="510" font-size="18" fill="#42526E">Static illustration | Synthetic figures | Source and table: assets/data/README.md</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "artifactType": "chart-brief",
+  "data": {
+    "source": "assets/data/category-comparison.csv",
+    "sourcePathBase": "repository-root",
+    "synthetic": true,
+    "unit": "USD",
+    "aggregation": "none; one observed total per category for June 2026",
+    "missingValues": "none in fixture; do not substitute zero if adapting"
+  },
+  "question": "Which synthetic product category has the highest June revenue?",
+  "audience": "Developers watching a conference demo",
+  "chartType": "horizontal-bar",
+  "encoding": {
+    "x": {"field": "revenue_usd", "type": "quantitative", "domain": [0, 200000], "baseline": 0, "displayUnit": "USD thousands"},
+    "y": {"field": "category", "type": "nominal", "order": ["Platform", "Analytics", "Support"]},
+    "series": "one",
+    "marks": "horizontal bars with a common zero baseline",
+    "valueLabels": "$80k, $60k, $40k"
+  },
+  "title": "Revenue by category",
+  "subtitle": "Synthetic data | June 2026",
+  "summary": "Synthetic June 2026 revenue is $80,000 for Platform, $60,000 for Analytics, and $40,000 for Support. Platform is largest. The categories total $180,000, matching June in the monthly example.",
+  "tableAlternative": "assets/data/README.md",
+  "rationale": "Descending horizontal bars make category ranking explicit and leave room for readable names. A zero baseline preserves magnitude comparisons.",
+  "rejectedAlternative": {"chartType": "line", "reason": "These categories have no continuous order; connecting them would imply one."},
+  "limitations": ["Synthetic data supports no real business conclusion.", "Categories are a June breakdown, not additional monthly revenue.", "Static illustration has no interaction."],
+  "illustration": "assets/examples/category-comparison.svg"
+}

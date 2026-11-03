@@ -1,0 +1,29 @@
+{
+  "artifactType": "chart-brief",
+  "data": {
+    "source": "assets/data/monthly-revenue.csv",
+    "sourcePathBase": "repository-root",
+    "synthetic": true,
+    "unit": "USD",
+    "aggregation": "none; one observed total per month",
+    "missingValues": "none in fixture; preserve gaps if adapting"
+  },
+  "question": "How did synthetic monthly revenue change between January and June 2026?",
+  "audience": "Developers watching a conference demo",
+  "chartType": "line",
+  "encoding": {
+    "x": {"field": "month", "type": "temporal", "granularity": "month", "order": "ascending", "domain": ["2026-01", "2026-06"]},
+    "y": {"field": "revenue_usd", "type": "quantitative", "domain": [0, 200000], "baseline": 0, "displayUnit": "USD thousands"},
+    "series": "one",
+    "marks": "straight line segments with circular markers at observed months",
+    "valueLabels": "$120k, $135k, $128k, $150k, $165k, $180k"
+  },
+  "title": "Monthly revenue",
+  "subtitle": "Synthetic data | January-June 2026",
+  "summary": "Synthetic monthly revenue is $120,000 in January, $135,000 in February, $128,000 in March, $150,000 in April, $165,000 in May, and $180,000 in June 2026. June is $60,000 (50%) above January, with a dip in March.",
+  "tableAlternative": "assets/data/README.md",
+  "rationale": "A line preserves chronological order and makes the March dip visible. The zero baseline provides full magnitude context for this demo.",
+  "rejectedAlternative": {"chartType": "pie", "reason": "Shares of a six-month total do not answer the change-over-time question."},
+  "limitations": ["Synthetic data supports no real business conclusion.", "Monthly observations do not establish daily values or causes.", "Static illustration has no interaction."],
+  "illustration": "assets/examples/monthly-revenue.svg"
+}

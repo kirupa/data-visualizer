@@ -1,0 +1,39 @@
+{
+  "artifactType": "chart-design-tokens",
+  "theme": "light",
+  "colors": {
+    "background": "#FFFFFF",
+    "text": "#172B4D",
+    "mutedText": "#42526E",
+    "axis": "#42526E",
+    "grid": "#DCE3EB",
+    "series": ["#005FCC", "#713EB8", "#006B57"],
+    "seriesUse": "Use the first color for single-series examples; add labels and distinct shapes or patterns for multiple series."
+  },
+  "typography": {
+    "fontFamily": "system-ui, -apple-system, Segoe UI, sans-serif",
+    "titlePx": 32,
+    "subtitlePx": 20,
+    "labelPx": 20,
+    "valuePx": 20,
+    "notePx": 18
+  },
+  "layout": {
+    "canvasWidth": 960,
+    "canvasHeight": 540,
+    "linePlot": {"left": 100, "right": 860, "top": 90, "bottom": 390},
+    "barPlot": {"left": 230, "right": 830, "top": 150, "bottom": 390},
+    "lineStrokePx": 4,
+    "markerRadiusPx": 6,
+    "barHeightPx": 44
+  },
+  "accessibility": {
+    "normalTextContrastMinimum": 4.5,
+    "largeTextContrastMinimum": 3,
+    "essentialGraphicContrastMinimum": 3,
+    "colorOnlyMeaning": false,
+    "requireTextAlternative": true,
+    "requireTableAlternative": true,
+    "status": "Design targets; validate actual output and adjacent backgrounds. These tokens are not an accessibility certification."
+  }
+}

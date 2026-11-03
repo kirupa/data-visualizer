@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="monthly-title monthly-description">
+  <title id="monthly-title">Monthly revenue: static synthetic illustration</title>
+  <desc id="monthly-description">Synthetic monthly revenue in USD for January through June 2026: 120000, 135000, 128000, 150000, 165000, 180000. March dips below February. June is 60000 USD, or 50%, above January. The vertical scale starts at zero and ends at 200000 USD. This is a static illustration; a data table is available in assets/data/README.md.</desc>
+  <rect width="960" height="540" fill="#FFFFFF"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="#172B4D">
+    <text x="40" y="42" font-size="32" font-weight="700">Monthly revenue</text>
+    <text x="40" y="72" font-size="20" fill="#42526E">Synthetic data | January-June 2026</text>
+    <g stroke="#DCE3EB" stroke-width="1">
+      <path d="M100 90H860 M100 165H860 M100 240H860 M100 315H860"/>
+    </g>
+    <path d="M100 90V390H860" fill="none" stroke="#42526E" stroke-width="2"/>
+    <g font-size="20" fill="#42526E" text-anchor="end">
+      <text x="86" y="97">200</text>
+      <text x="86" y="172">150</text>
+      <text x="86" y="247">100</text>
+      <text x="86" y="322">50</text>
+      <text x="86" y="397">0</text>
+    </g>
+    <text transform="translate(30 260) rotate(-90)" font-size="20" text-anchor="middle">Revenue (USD thousands)</text>
+    <polyline id="revenue-line" points="100,210 252,187.5 404,198 556,165 708,142.5 860,120" fill="none" stroke="#005FCC" stroke-width="4" stroke-linejoin="round"/>
+    <g fill="#005FCC">
+      <circle id="point-2026-01" cx="100" cy="210" r="6"/>
+      <circle id="point-2026-02" cx="252" cy="187.5" r="6"/>
+      <circle id="point-2026-03" cx="404" cy="198" r="6"/>
+      <circle id="point-2026-04" cx="556" cy="165" r="6"/>
+      <circle id="point-2026-05" cx="708" cy="142.5" r="6"/>
+      <circle id="point-2026-06" cx="860" cy="120" r="6"/>
+    </g>
+    <g font-size="20" text-anchor="middle">
+      <text x="100" y="190">$120k</text>
+      <text x="252" y="167.5">$135k</text>
+      <text x="404" y="178">$128k</text>
+      <text x="556" y="145">$150k</text>
+      <text x="708" y="122.5">$165k</text>
+      <text x="860" y="100">$180k</text>
+      <text x="100" y="425">Jan</text>
+      <text x="252" y="425">Feb</text>
+      <text x="404" y="425">Mar</text>
+      <text x="556" y="425">Apr</text>
+      <text x="708" y="425">May</text>
+      <text x="860" y="425">Jun</text>
+      <text x="480" y="462">Month (2026)</text>
+    </g>
+    <text x="40" y="510" font-size="18" fill="#42526E">Static illustration | Synthetic figures | Source and table: assets/data/README.md</text>
+  </g>
+</svg>
