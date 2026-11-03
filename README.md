@@ -5,7 +5,7 @@ Chart guidance for developers who want to make a useful chart before arguing abo
 Data Visualizer is a small library of Agent Skills, chart briefs, design tokens, and worked examples. It helps you decide what to draw, explain your choices, and catch misleading or inaccessible details before a chart reaches an audience.
 
 > **Demo scope**
-> This repository was created for a Microsoft Ignite demo. It contains documentation and static illustrations, not a chart-rendering package or working application. All sample data is synthetic. It is an independent demo with no Microsoft endorsement.
+> This repository was created for a Microsoft Ignite demo. All sample data is synthetic. It is an independent demo with no Microsoft endorsement.
 
 Our examples use the same synthetic revenue figures throughout, so you can compare the source data with the chart decisions. Here is the monthly example:
 
